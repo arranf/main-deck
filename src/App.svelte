@@ -81,7 +81,7 @@
 		{#if usedCards.length > 0}
 		<ul>
 			{#each usedCards.reverse() as card}
-				<li>{card}</li> <button class="small-button" on:click={addCard(card)}>Add to deck</button>
+				<li>{card} <button class="small-button" on:click={addCard(card)}>Add to deck</button></li> 
 			{/each}
 		</ul>
 		{/if}
