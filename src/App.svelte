@@ -1,5 +1,5 @@
 <script>
-	let cards = ['+5', '+4', '+3', '+2', '+1', '0', '-1', '-2', '-3', '-4', '-5'];
+	let cards = ['+5', '+3', '+2', '+1', '0', '-1', '-2', '-3', '-4', '-5'];
 	let usedCards = [];
 	let currentCard;
 	let showCards = false;
@@ -17,7 +17,7 @@
 	}
 
 	function reshuffleDeck() {
-		cards = shuffle(['+5', '+4', '+3', '+2', '+1', '0', '-1', '-2', '-3', '-4', '-5'])
+		cards = shuffle(['+5', '+3', '+2', '+1', '0', '-1', '-2', '-3', '-4', '-5'])
 		usedCards = [];
 		currentCard = undefined;
 	}
